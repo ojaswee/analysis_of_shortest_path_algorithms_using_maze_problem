@@ -10,6 +10,10 @@ The maze is as follows
 2  3 &nbsp;&nbsp;7—15—14&nbsp;&nbsp;&nbsp;19    
 &emsp;&emsp;/\ &emsp;|         
 &emsp;16&nbsp;17&nbsp;13    
-
 There can be various ways to solve this problem; I am trying to solve it by using following ways:
-1)	BFS_using_vertices_matrix: “vertices_matrix.csv” provides the path.  1 if there is a path, 0 if no path exists. Then we do Breadth First Search(BFS) using this adjacency matrix.
+1)	unweighted_BFS_via_vertex_matrix: In this program we are reading adjacent vertices from “unweighted_undirected_vertex_matrix.csv”   
+  1 if there is a path,       
+  0 if no path exists.   
+Then we do Breadth First Search(BFS), BFS by default is unweighted and not directed. 
+
+
